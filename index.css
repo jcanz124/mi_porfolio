@@ -1,0 +1,86 @@
+#bodyHolder{
+    display: flex;
+}
+#NavArea{   
+    width: 13.5%;
+    background-color: green;
+    height: 100vh;
+    align-items: center;
+    border-radius: .5vh;
+}
+.NavBtn{
+    width: 15vh;
+    height: 15vh;
+    margin-top: 12vh;
+    margin-left: 3.5vh;
+    border-radius: 2vh;
+}
+#contentArea{
+    background-color: blue;
+    width: 86.5%;
+    height: 100vh;
+}
+.b{
+    display: inline-block;
+}
+
+/* Content Area */
+
+#HomeContent{
+    display: block;
+}
+#AboutMeContent{
+    display: none;
+}
+#ContactMeContent{
+    display: none;
+}
+#header{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 3%;
+}
+#ProfileHolder{
+    height: 10%;
+}
+img {
+    margin-top: 2%;
+    margin-left: 40.5%;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    border-radius: 50%;
+}
+#HomeText{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 3%;
+    width: 90%;     
+    height: 25%;
+    background-color: gray;
+}
+#homeText{
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: 40px;
+}
+.aboutMeContainers{
+    height: 225px;
+    background-color: grey;
+}
+#ABoutMEBG{
+    font-size: 40px;
+    text-align: left;
+    margin-top: 3%;
+}
+#aboutMeText{
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 25px;
+}
+.contactText{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 40px;
+}
